@@ -1,0 +1,172 @@
+body{
+    background-color: black;
+}
+#main{
+     background-color: black;
+     display: grid;
+     row-gap: 8px;
+     column-gap: 8px; 
+     grid-template-rows: 100px 50px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+     padding-top: 10px;
+}
+#main2{
+    display: grid;
+    row-gap: 8px;
+    grid-column: 1/5;
+    grid-row: 1/13;
+    grid-template-rows: 100px 50px 100px 100px 100px 100px 50px 10px 10px 10px 10px 10px;
+}
+#in1{
+     background-color: rgba(27, 27, 27, 0.658);
+     grid-column: 1/5;
+     grid-row: 1/3;
+     border-radius: 20px;
+     color: aliceblue;
+     font-size: 25px;
+     padding-top: 25px;
+     padding-left: 20px;
+     padding-right: 25px;
+}
+#in2{
+     background-color: rgba(27, 27, 27, 0.658);
+     grid-column: 5/20;
+     grid-row: 1/13;
+     border-radius: 20px;
+     padding-left: 20px ;
+     padding-right: 20px;
+     padding-top: 20px;
+}
+#in3{
+     background-color: rgba(27, 27, 27, 0.658);
+     grid-column: 1/5;
+     grid-row: 3/13;
+     border-radius: 20px;
+     color: rgb(240, 248, 255, 0.6);
+     font-size: 25px;
+     padding-left: 20px;
+     padding-top: 20px;
+     display: grid;
+     row-gap: 10px;
+     column-gap: 10px; 
+     padding-right: 20px; 
+     grid-template-rows: 54.15px 54.15px 54.15px 54.15px 54.15px 54.15px 54.15px 54.15px;
+     
+}
+#list1{
+     list-style-type: none;
+}
+#homeicon{
+     color: rgb(240, 248, 255, 0.6);
+}
+#searchicon{
+     color: rgb(240, 248, 255, 0.6);
+}
+#homesearch{
+    border-radius: 10px;
+    border: none;
+    color: rgb(240, 248, 255, 0.6);
+    background-color: rgba(27, 27, 27, 0);
+}
+#homesearch:hover{
+    background-color: rgb(32, 31, 31);
+}
+.inin3{
+    position: relative;
+    border-radius: 20px;
+    background-color: rgb(32, 31, 31);
+}
+#inin31{
+
+    grid-row: 1/2;
+}
+#inin32{
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+    grid-row: 2/5;
+}
+#inin33{
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+    grid-row: 5/8;   
+}
+#btnl1{
+    border-radius: 20px;
+    font-weight: 500;
+}
+#btnl2{
+    border-radius: 20px;
+    font-weight: 500;
+}
+.textleft{
+    color: rgb(240, 248, 255, 0.6);
+}
+#plus{
+    
+    margin-left: 120px;
+}
+#arrow{
+    margin-left: 50px;
+}
+#flex{
+    display: flex;
+}
+#flex2{
+    display: flex;
+    justify-content: space-between;
+}
+#code{
+    padding-left: 10px;
+    font-size: 35px;
+    color: aliceblue;
+}
+#lightbtn{
+    border-radius: 20px;
+}
+#darkbtn{
+    background-color: black;
+    border-radius: 20px;
+}
+#buttons{
+    font-size: 35px;
+    color: aliceblue;
+}
+#recent{
+    color: aliceblue;
+}
+.card{
+    display: grid;
+    color: aliceblue;
+    background-color: rgb(41, 40, 40);
+}
+#textcard{
+    color: rgb(240, 248, 255, 0.6);
+}
+#trending{
+    color: aliceblue;
+}
+#morecard{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+#personbtn{
+    font-size: 30px;
+    background-color: rgb(214, 215, 216 , 0);
+    border-style: none;
+    border-radius: 40px;
+}
+#personbtn:hover{
+    background-color: rgb(32, 31, 31);
+}
+#card1{
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#img1{
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+}

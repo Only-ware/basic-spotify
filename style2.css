@@ -1,0 +1,75 @@
+body{
+     background-image: url("https://www.pix-star.com/blog/wp-content/uploads/2021/05/digital-photo-frames.jpg");
+     background-size: cover;
+}
+.main_box{
+          
+          position: relative;
+          left: 0px;
+          top: 0px;      
+}
+a{
+    color: purple;
+}
+#logo{
+      color: blueviolet;
+}
+
+.btn_two{
+         position: absolute;
+         left: 270px;
+         top: 0px;
+         font-size: 20px;
+}
+#btnone{
+        color: green;
+}
+#btntwo{
+        color: green;
+}
+.logo{
+    font-size: 30px;
+    
+}
+#apna{
+      color: blueviolet;
+      position: relative;
+      left: 80px;
+}
+.sidebar_menu{
+              padding: 0px;
+              position: absolute;
+              left: -47px;
+              top: -7px;
+              width: 300px;
+              height: 775px;
+              font-size: 20px;
+              background-color: rgba(255, 255, 255, 0.09);
+              line-height: 50px;
+              box-shadow: 0px 0px 2px 1px white;
+              
+}
+.btn_one{
+         font-size: 30px;
+         position: relative;
+         top: 4px;
+}
+.social_media{
+              font-size: 40px;
+              position: relative;
+              left: 30px;
+              top: 30px;
+}
+.list:hover{
+            box-shadow: 0 0 1px 2px rgb(255, 255, 255);
+            
+}
+.btn_two:hover{
+               font-size: 25px;
+}
+#check{
+       display: none;
+}
+#check:checked~.sidebar_menu{
+                             left: -350px;
+}
